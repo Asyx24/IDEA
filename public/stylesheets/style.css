@@ -1,0 +1,188 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-size: 500%;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 200%;
+    color:white;
+    text-align: center;
+    margin: 0;
+}
+
+.frame{
+    padding: 5vh 2vw 0 2vw;
+}
+
+.mainBox {
+    background-color: #2b669a;
+    border-radius: 20px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+#startBox {
+    padding: 16vh 0 0 0;
+    height: 90vh;
+}
+
+#searchOpponentBox {
+    position: absolute;
+    width: 92%;
+    padding: 0 8vh 0 8vh;
+    bottom: 12vh;
+}
+
+#SearchOpponentButton {
+    height: 12vh;
+    font-size: 200%;
+}
+
+#questionBox {
+    height: 90vh;
+    padding: 9vh 5vw 0 5vw ;
+}
+
+.answerBox {
+    position: absolute;
+    width: 70%;
+}
+
+.answer {
+    height: 10vh;
+    font-size: 140%;
+}
+
+#answer1{
+    bottom:41vh;
+}
+
+#answer2{
+    bottom:29vh;
+}
+
+#answer3{
+    bottom:17vh;
+}
+
+#answer4{
+    bottom:5vh;
+}
+
+#questionCountBox {
+    padding: 1.5vh 1vw 1.5vh 1vw;
+    height: 14vh;
+}
+
+.questionCountBlock {
+    background-color: #e3e3e3;
+    float: left;
+    width: 9%;
+    height: 11vh;
+    margin-right: 1%;
+    border-radius: 20px;
+}
+
+#scoreboardBox{
+    height: 14vh;
+}
+
+#scoreText{
+    padding: 10% 0 10% 0;
+}
+
+#timerBox{
+    height: 14vh;
+    padding: 2%;
+}
+
+#timer{
+    height: 100%;
+    border-radius: 15px;
+}
+
+#chatBox{
+    height: 52vh;
+    padding: 4vh 2vw 0 2vw;
+}
+
+#opponentName{
+    padding: 0 0 4vh 0;
+    text-align: left;
+}
+
+#chatHistory{
+    background-color: rgba(255, 255, 255, 1);
+    height: 26vh;
+    border-radius: 15px;
+    margin: 1vh 0 3vh 0;
+    overflow: scroll;
+}
+
+.chatInput{
+    height: 5vh;
+    border-radius: 15px;
+}
+
+#readyButtonBox{
+    position: absolute;
+    width: 70%;
+    bottom:10vh;
+}
+
+#waitingBox{
+    height: 90vh;
+    padding: 20vh 5vw 0 5vw ;
+}
+
+#resultBox {
+    background-color: #2b669a;
+    height: 90vh;
+    padding: 18vh 5vw 0 5vw ;
+ }
+
+#victoryText{
+    padding: 0 0 15vh 0;
+}
+
+.replayBox{
+    position: absolute;
+    width: 70%;
+    border: dotted;
+    border-width: 2px;
+    border-color: black;
+}
+
+#content{
+    padding-top: 10px;
+    list-style: none;
+    margin-left: -27px;
+}
+
+#readyButton{
+    height: 10vh;
+    font-size: 140%;
+}
+
+#username{
+    margin: 30% 10% 0 10%;
+    width: 80%;
+    height: 10vh;
+    text-align: center;
+    font-size: 200%;
+    border-radius: 5px;
+}
+
+.inline{
+    display: inline;
+}
+
+#score{
+    padding-left: 32%;
+}

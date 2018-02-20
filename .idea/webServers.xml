@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2a477b0d-da50-4981-8002-54a4f878fb72" name="UniDuell" url="http://home642389642.1and1-data.host">
+        <fileTransfer host="home642389642.1and1-data.host" port="22" accessType="SFTP" username="u86002059">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
